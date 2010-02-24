@@ -1,0 +1,436 @@
+/* Gen */
+
+.skin_gen_t {
+	height: 20px;
+	background-image: url('gen_tif.png');
+	background-position: 25px 0px;
+	text-align: center;
+}
+
+.skin_gen_tl {
+	height: 20px;
+	width: 25px;
+	float: left;
+	background-image: url('gen_til.png');
+}
+
+.skin_gen_tr {
+	height: 20px;
+	width: 25px;
+	float: right;
+	background-image: url('gen_tir.png');
+}
+
+.skin_gen_tc {
+	height: 20px;
+	display: inline-block;
+}
+
+.skin_gen_tc {
+}
+
+.skin_gen_tcl {
+	height: 20px;
+	width: 25px;
+	background-image: url('gen_ticl.png');
+	float: left;
+}
+
+.skin_gen_tcc {
+	height: 20px;
+	background-image: url('gen_ticf.png');
+	float: left;
+}
+
+.skin_gen_tccl {
+	margin-top: 4px;
+	height: 7px;
+	font-size: 7px; /* ancillary */
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.skin_gen_tccl > * {
+	float: left;
+}
+
+.skin_gen_l__ {
+	width: 4px;
+	height: 7px;
+}
+
+.skin_gen_tcr {
+	height: 20px;
+	width: 25px;
+	background-image: url('gen_ticr.png');
+	float: left;
+}
+
+.skin_gen:hover .skin_gen_t  { background-image: url('gen_taf.png'); }
+.skin_gen:hover .skin_gen_tl { background-image: url('gen_tal.png'); }
+.skin_gen:hover .skin_gen_tr { background-image: url('gen_tar.png'); }
+.skin_gen:hover .skin_gen_tcc{ background-image: url('gen_tacf.png'); }
+.skin_gen:hover .skin_gen_tcl{ background-image: url('gen_tacl.png'); }
+.skin_gen:hover .skin_gen_tcr{ background-image: url('gen_tacr.png'); }
+
+.skin_gen_m {
+	width: 100%;
+	border-spacing: 0;
+}
+
+.skin_gen_ml, .skin_gen_mr, .skin_gen_mbl, .skin_gen_mbr {
+	padding: 0;
+}
+
+.skin_gen_ml {
+	width: 11px;
+	background-image: url('gen_ml.png');
+	vertical-align: bottom;
+}
+
+.skin_gen_mr {
+	width: 8px;
+	background-image: url('gen_mr.png');
+	vertical-align: bottom;
+}
+
+.skin_gen_mc {
+	padding-right: 3px;
+}
+
+.skin_gen_mbl {
+	width: 11px;
+	height: 24px;
+	background-image: url('gen_mbl.png');
+}
+
+.skin_gen_mbr {
+	width: 8px;
+	height: 24px;
+	background-image: url('gen_mbr.png');
+}
+
+.skin_gen_b {
+	height: 14px;
+	background-image: url('gen_bf.png');
+	background-position: 125px 0px;
+}
+
+.skin_gen_bl {
+	height: 14px;
+	width: 125px;
+	float: left;
+	background-image: url('gen_bl.png');
+}
+
+.skin_gen_br {
+	height: 14px;
+	width: 125px;
+	float: right;
+	background-image: url('gen_br.png');
+}
+
+/* PlEdit */
+
+.skin_pledit_t {
+	height: 20px;
+	background-image: url('pledit_tif.png');
+	background-position: 25px 0px;
+}
+
+.skin_pledit_tl {
+	height: 20px;
+	width: 25px;
+	float: left;
+	background-image: url('pledit_til.png');
+}
+
+.skin_pledit_tr {
+	height: 20px;
+	width: 25px;
+	float: right;
+	background-image: url('pledit_tir.png');
+}
+
+.skin_pledit_tc {
+	height: 20px;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('pledit_tic.png');
+}
+
+.skin_pledit:hover .skin_pledit_t  { background-image: url('pledit_taf.png'); }
+.skin_pledit:hover .skin_pledit_tl { background-image: url('pledit_tal.png'); }
+.skin_pledit:hover .skin_pledit_tr { background-image: url('pledit_tar.png'); }
+.skin_pledit:hover .skin_pledit_tc { background-image: url('pledit_tac.png'); }
+
+.skin_pledit_m {
+	width: 100%;
+	border-spacing: 0;
+}
+
+.skin_pledit_ml, .skin_pledit_mr {
+	padding: 0;
+}
+
+.skin_pledit_ml {
+	width: 12px;
+	background-image: url('pledit_ml.png');
+}
+
+.skin_pledit_mr {
+	width: 20px;
+	background-image: url('pledit_mr.png');
+}
+
+.skin_pledit_mc {
+	padding-right: 4px;
+}
+
+.skin_pledit_b {
+	height: 38px;
+	background-image: url('pledit_bf.png');
+	background-position: 125px 0px;
+}
+
+.skin_pledit_bl {
+	height: 38px;
+	width: 125px;
+	float: left;
+	background-image: url('pledit_bl.png');
+}
+
+.skin_pledit_br {
+	height: 38px;
+	width: 150px;
+	float: right;
+	background-image: url('pledit_br.png');
+}
+
+/* Video */
+
+.skin_video_t {
+	height: 20px;
+	background-image: url('video_tif.png');
+	background-position: 25px 0px;
+}
+
+.skin_video_tl {
+	height: 20px;
+	width: 25px;
+	float: left;
+	background-image: url('video_til.png');
+}
+
+.skin_video_tr {
+	height: 20px;
+	width: 25px;
+	float: right;
+	background-image: url('video_tir.png');
+}
+
+.skin_video_tc {
+	height: 20px;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('video_tic.png');
+}
+
+.skin_video:hover .skin_video_t  { background-image: url('video_taf.png'); }
+.skin_video:hover .skin_video_tl { background-image: url('video_tal.png'); }
+.skin_video:hover .skin_video_tr { background-image: url('video_tar.png'); }
+.skin_video:hover .skin_video_tc { background-image: url('video_tac.png'); }
+
+.skin_video_m {
+	width: 100%;
+	border-spacing: 0;
+}
+
+.skin_video_ml, .skin_video_mr {
+	padding: 0;
+}
+
+.skin_video_ml {
+	width: 11px;
+	background-image: url('video_ml.png');
+}
+
+.skin_video_mr {
+	width: 8px;
+	background-image: url('video_mr.png');
+}
+
+.skin_video_mc {
+	padding-right: 4px;
+}
+
+.skin_video_b {
+	height: 38px;
+	background-image: url('video_bf.png');
+	background-position: 125px 0px;
+}
+
+.skin_video_bl {
+	height: 38px;
+	width: 125px;
+	float: left;
+	background-image: url('video_bl.png');
+}
+
+.skin_video_br {
+	height: 38px;
+	width: 125px;
+	float: right;
+	background-image: url('video_br.png');
+}
+
+/* MB */
+
+.skin_mb_t {
+	height: 20px;
+	background-image: url('mb_tif.png');
+	background-position: 25px 0px;
+}
+
+.skin_mb_tl {
+	height: 20px;
+	width: 25px;
+	float: left;
+	background-image: url('mb_til.png');
+}
+
+.skin_mb_tr {
+	height: 20px;
+	width: 25px;
+	float: right;
+	background-image: url('mb_tir.png');
+}
+
+.skin_mb_tc {
+	height: 20px;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('mb_tic.png');
+}
+
+.skin_mb:hover .skin_mb_t  { background-image: url('mb_taf.png'); }
+.skin_mb:hover .skin_mb_tl { background-image: url('mb_tal.png'); }
+.skin_mb:hover .skin_mb_tr { background-image: url('mb_tar.png'); }
+.skin_mb:hover .skin_mb_tc { background-image: url('mb_tac.png'); }
+
+.skin_mb_m {
+	width: 100%;
+	border-spacing: 0;
+}
+
+.skin_mb_ml, .skin_mb_mr {
+	padding: 0;
+}
+
+.skin_mb_ml {
+	width: 11px;
+	background-image: url('mb_ml.png');
+}
+
+.skin_mb_mr {
+	width: 8px;
+	background-image: url('mb_mr.png');
+}
+
+.skin_mb_mc {
+	padding-right: 4px;
+}
+
+.skin_mb_b {
+	height: 38px;
+	background-image: url('mb_bf.png');
+	background-position: 125px 0px;
+}
+
+.skin_mb_bl {
+	height: 38px;
+	width: 125px;
+	float: left;
+	background-image: url('mb_bl.png');
+}
+
+.skin_mb_br {
+	height: 38px;
+	width: 125px;
+	float: right;
+	background-image: url('mb_br.png');
+}
+
+/* AVS */
+
+.skin_avs_t {
+	height: 15px;
+	background-image: url('avs_tf.png');
+	background-position: 50px 0px;
+}
+
+.skin_avs_tl {
+	height: 15px;
+	width: 50px;
+	float: left;
+	background-image: url('avs_tl.png');
+}
+
+.skin_avs_tr {
+	height: 16px;
+	width: 15px;
+	float: right;
+	background-image: url('avs_tr.png');
+}
+
+.skin_avs_m {
+	width: 100%;
+	border-spacing: 0;
+}
+
+.skin_avs_ml, .skin_avs_mr {
+	padding: 0;
+}
+
+.skin_avs_ml {
+	width: 7px;
+	background-image: url('avs_ml.png');
+}
+
+.skin_avs_mr {
+	width: 6px;
+	background-image: url('avs_mr.png');
+}
+
+.skin_avs_mc {
+	padding-right: 2px;
+}
+
+.skin_avs_b {
+	height: 5px;
+	background-image: url('avs_bf.png');
+	background-position: 50px 0px;
+}
+
+.skin_avs_bl {
+	height: 5px;
+	width: 50px;
+	float: left;
+	background-image: url('avs_bl.png');
+}
+
+.skin_avs_br {
+	height: 5px;
+	width: 16px;
+	float: right;
+	background-image: url('avs_br.png');
+}
+
+/* Misc. */
+
+.skin_text {
+	font-size: 10pt;
+}
