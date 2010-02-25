@@ -15,7 +15,9 @@ Usage
 Compilation prerequisites
 -------------------------
 
-1.	PngImage, a previously open-source unit, now owned by
+1.	[PngImage][], a previously open-source unit, now owned by
 	CodeGear/Embarcadero and distributed exclusively with Delphi 2009. :(
 2.	My Glib unit (<http://github.com/CyberShadow/Glib>)
 3. 	My MyStrUtils unit (<http://github.com/CyberShadow/MyStrUtils>)
+
+[PngImage]: http://blogs.embarcadero.com/nickhodges/2008/08/13/39100
