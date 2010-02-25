@@ -67,7 +67,7 @@ begin
   begin
     C := Chr(Ord('a')+I);
     AddString(CSS, '.skin_' + Name + '_l_' + C + ' { width: ' + IntToStr(Widths[I]) + 'px; height: 7px; background-image: url(''gen_li_' + C + '.png''); }');
-    AddString(CSS, '.skin_gen:hover .skin_' + Name + '_l_' + C + ' { background-image: url(''gen_la_' + C + '.png''); }');
+    AddString(CSS, '.skin_' + Name + ':hover > .skin_' + Name + '_t > .skin_' + Name + '_tc > .skin_' + Name + '_tcc  > .skin_' + Name + '_tccl > .skin_' + Name + '_l_' + C + ' { background-image: url(''gen_la_' + C + '.png''); }');
   end;
   PutFile('web\'+Name+'_l.css', Join(CSS, #13#10));
 end;

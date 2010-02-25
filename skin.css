@@ -66,12 +66,12 @@
 	float: left;
 }
 
-.skin_gen:hover .skin_gen_t  { background-image: url('gen_taf.png'); }
-.skin_gen:hover .skin_gen_tl { background-image: url('gen_tal.png'); }
-.skin_gen:hover .skin_gen_tr { background-image: url('gen_tar.png'); }
-.skin_gen:hover .skin_gen_tcc{ background-image: url('gen_tacf.png'); }
-.skin_gen:hover .skin_gen_tcl{ background-image: url('gen_tacl.png'); }
-.skin_gen:hover .skin_gen_tcr{ background-image: url('gen_tacr.png'); }
+.skin_gen:hover > .skin_gen_t                                { background-image: url('gen_taf.png'); }
+.skin_gen:hover > .skin_gen_t > .skin_gen_tl                 { background-image: url('gen_tal.png'); }
+.skin_gen:hover > .skin_gen_t > .skin_gen_tr                 { background-image: url('gen_tar.png'); }
+.skin_gen:hover > .skin_gen_t > .skin_gen_tc > .skin_gen_tcc { background-image: url('gen_tacf.png'); }
+.skin_gen:hover > .skin_gen_t > .skin_gen_tc > .skin_gen_tcl { background-image: url('gen_tacl.png'); }
+.skin_gen:hover > .skin_gen_t > .skin_gen_tc > .skin_gen_tcr { background-image: url('gen_tacr.png'); }
 
 .skin_gen_m {
 	width: 100%;
@@ -160,10 +160,10 @@
 	background-image: url('pledit_tic.png');
 }
 
-.skin_pledit:hover .skin_pledit_t  { background-image: url('pledit_taf.png'); }
-.skin_pledit:hover .skin_pledit_tl { background-image: url('pledit_tal.png'); }
-.skin_pledit:hover .skin_pledit_tr { background-image: url('pledit_tar.png'); }
-.skin_pledit:hover .skin_pledit_tc { background-image: url('pledit_tac.png'); }
+.skin_pledit:hover > .skin_pledit_t                   { background-image: url('pledit_taf.png'); }
+.skin_pledit:hover > .skin_pledit_t > .skin_pledit_tl { background-image: url('pledit_tal.png'); }
+.skin_pledit:hover > .skin_pledit_t > .skin_pledit_tr { background-image: url('pledit_tar.png'); }
+.skin_pledit:hover > .skin_pledit_t > .skin_pledit_tc { background-image: url('pledit_tac.png'); }
 
 .skin_pledit_m {
 	width: 100%;
@@ -238,10 +238,10 @@
 	background-image: url('video_tic.png');
 }
 
-.skin_video:hover .skin_video_t  { background-image: url('video_taf.png'); }
-.skin_video:hover .skin_video_tl { background-image: url('video_tal.png'); }
-.skin_video:hover .skin_video_tr { background-image: url('video_tar.png'); }
-.skin_video:hover .skin_video_tc { background-image: url('video_tac.png'); }
+.skin_video:hover > .skin_video_t                  { background-image: url('video_taf.png'); }
+.skin_video:hover > .skin_video_t > .skin_video_tl { background-image: url('video_tal.png'); }
+.skin_video:hover > .skin_video_t > .skin_video_tr { background-image: url('video_tar.png'); }
+.skin_video:hover > .skin_video_t > .skin_video_tc { background-image: url('video_tac.png'); }
 
 .skin_video_m {
 	width: 100%;
@@ -316,10 +316,10 @@
 	background-image: url('mb_tic.png');
 }
 
-.skin_mb:hover .skin_mb_t  { background-image: url('mb_taf.png'); }
-.skin_mb:hover .skin_mb_tl { background-image: url('mb_tal.png'); }
-.skin_mb:hover .skin_mb_tr { background-image: url('mb_tar.png'); }
-.skin_mb:hover .skin_mb_tc { background-image: url('mb_tac.png'); }
+.skin_mb:hover > .skin_mb_t               { background-image: url('mb_taf.png'); }
+.skin_mb:hover > .skin_mb_t > .skin_mb_tl { background-image: url('mb_tal.png'); }
+.skin_mb:hover > .skin_mb_t > .skin_mb_tr { background-image: url('mb_tar.png'); }
+.skin_mb:hover > .skin_mb_t > .skin_mb_tc { background-image: url('mb_tac.png'); }
 
 .skin_mb_m {
 	width: 100%;
