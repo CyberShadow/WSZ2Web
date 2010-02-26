@@ -26,9 +26,6 @@
 	display: inline-block;
 }
 
-.skin_gen_tc {
-}
-
 .skin_gen_tcl {
 	height: 20px;
 	width: 25px;
@@ -43,6 +40,7 @@
 }
 
 .skin_gen_tccl {
+	float: left;
 	margin-top: 4px;
 	height: 7px;
 	font-size: 7px; /* ancillary */
@@ -52,6 +50,11 @@
 
 .skin_gen_tccl > * {
 	float: left;
+}
+
+.skin_gen_tc_fix {
+	/* fix for Opera */
+	margin-top: 20px;
 }
 
 .skin_gen_l__ {
